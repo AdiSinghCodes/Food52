@@ -1,0 +1,151 @@
+.recipes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recipe-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-row {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.recipe-card {
+  width: 200px;
+  margin-right: 15px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.like-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.like-button.liked {
+  background-color: #28a745;
+}
+
+.search-section {
+  margin-top: 30px;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-results {
+  margin-top: 20px;
+}
+
+.recipe-detail {
+  margin-top: 30px;
+}
+
+.recipe-detail img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-detail ul {
+  padding-left: 20px;
+}
+
+.recipe-detail p {
+  white-space: pre-wrap;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .recipe-card {
+    background-color: #444;
+    border-color: #555;
+  }
+
+  .recipe-card h3 {
+    color: #fff;
+  }
+
+  .like-button {
+    background-color: #0056b3;
+  }
+
+  .like-button.liked {
+    background-color: #218838;
+  }
+
+  .search-bar input {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #555;
+  }
+
+  .search-bar button {
+    background-color: #0056b3;
+  }
+
+  .recipe-detail {
+    color: #fff;
+  }
+
+  .error-message {
+    color: #f8d7da;
+  }
+}

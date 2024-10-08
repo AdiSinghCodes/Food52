@@ -1,0 +1,100 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+body.light-mode {
+  background-color: white;
+  color: #121212;
+}
+  
+  /* Welcome Message Styling */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+  }
+
+  body.dark-mode h1 {
+    color: #ffffff; /* Changes to white in dark mode */
+}
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  body.dark-mode p {
+    color: #ffffff; /* Changes to white in dark mode */
+}  
+
+  /* Carousel Styling */
+  .carousel-container {
+    overflow: hidden;
+    position: relative;
+    width: 300%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: space-between;
+    animation: moveCarousel 20s linear infinite;
+  }
+  
+  .carousel-image {
+    width: 150px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+  
+  /* Animation for the carousel */
+  @keyframes moveCarousel {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .carousel-image {
+        width: 100px;
+    }
+  }
+  
+  .food-slider {
+    overflow: hidden;
+    width: 100%; /* Ensure the slider takes full width */
+  }
+  
+  .food-items {
+    display: flex;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .food-items img {
+    margin-right: 20px; /* Space between images */
+    width: 230px; /* Adjust image width as per requirement */
+    height: auto;
+  }
+  
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+  
+  

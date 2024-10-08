@@ -1,0 +1,88 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;  /* Adjust the background color as needed */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;  /* Reduced padding for minimal height */
+    z-index: 1000;
+    height: 40px;  /* Ensure minimum navbar height */
+}
+
+.navbar.dark {
+    background-color: black;
+    color: white;
+}
+
+.navbar.light {
+    background-color: white;
+    color: black;
+} 
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.company-name {
+    font-size: 3rem; /* Adjust size as needed */
+    text-align: center;
+    color: aliceblue;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links a {
+    color: inherit; 
+    text-decoration: none;
+    font-size: 1rem; /* Adjust text size as needed */
+    margin-left: 1rem;
+}
+
+.dark-mode-toggle {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #777;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}

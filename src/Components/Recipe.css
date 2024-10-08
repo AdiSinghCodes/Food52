@@ -1,0 +1,84 @@
+/* Default styles for light mode */
+:root {
+    --background-color: #fff;
+    --text-color: #000;
+}
+
+.dark-mode {
+    --background-color: #000;
+    --text-color: #fff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.recipe-page {
+    padding: 20px;
+}
+
+.recipe-category {
+    margin-bottom: 20px;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 30px;
+    color: peru;
+}
+
+.category-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 230px;
+}
+
+.recipe-card {
+    width: 300px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* When dark mode is active, turn the recipe names (h3) to white */
+.dark-mode .recipe-card h3 {
+    color: white;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.recipe-info {
+    margin-top: 10px;
+}
+
+/* Button for dark mode */
+.dark-mode-button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode-button:hover {
+    background-color: #444;
+}
