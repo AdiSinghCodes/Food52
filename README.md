@@ -101,16 +101,6 @@ Food52 is a comprehensive recipe website designed to make healthy cooking access
 - **Cooking Challenges** - Weekly/monthly cooking competitions
 - **Discussion Forums** - Connect with other cooking enthusiasts
 
-## 📸 Screenshots
-
-<div align="center">
-
-| Home Page | Recipe Search | Recipe Details |
-|-----------|---------------|----------------|
-| ![Home](screenshot-home.png) | ![Search](screenshot-search.png) | ![Recipe](screenshot-recipe.png) |
-
-</div>
-
 ## 🎯 Project Structure
 
 ```
@@ -197,16 +187,8 @@ Found a bug or have a feature idea? Please open an issue on GitHub:
 - 🌟 Passionate about creating user-centric applications
 
 [![GitHub](https://img.shields.io/badge/GitHub-AdiSinghCodes-black?style=for-the-badge&logo=github)](https://github.com/AdiSinghCodes)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](your-linkedin-url)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aditya-singh-2b319b299)
 
-## 🙏 Acknowledgments
-
-- Recipe data provided by [Recipe API Name]
-- Icons by [Icon Source]
-- Inspiration from the amazing food community
-- Special thanks to all contributors
-
----
 
 <div align="center">
 
